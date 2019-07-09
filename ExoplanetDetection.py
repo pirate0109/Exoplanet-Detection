@@ -34,7 +34,7 @@ from sklearn.ensemble import VotingClassifier
 
 # In[2]:
 
-#reading csv files
+#reading all csv files
 
 exotrain=pd.read_csv("ExoTrain.csv")
 exotest = pd.read_csv('Final Test.csv')
