@@ -45,6 +45,8 @@ We started with a basic Regression model to evaluate the baseline performance. T
 4. K-Nearest Neighbours
 5. Adaboost
 
+<img src="images/Ensemble.png" width="200" height="40" />
+
 ![Ensemble models](images/Ensemble.png "Ensemble Model") ![performance](images/Perfomance.png "Ensemble Model Performance")
 
 We then ensembled the prediction of these 4 models and used gradient boosting to compute the final prediction. The final F-score we got for this model is 0.862.
