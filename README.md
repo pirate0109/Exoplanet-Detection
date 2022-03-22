@@ -7,3 +7,13 @@ The kepler mission was lauched to figure out earthlike planets revolving along s
 
 The dataset was made available as a part of Annual Inter-IIT competition held in IIT Madras. This dataset contains flux of over 5000 stars in a time series form. Its a binary classification problem with label 1 represent that the star no confirmed exoplanet and 2 represented that the star has atleast one exoplanet.
 
+
+### Data Preprocessing
+
+**Noise Removal**
+
+
+The random bunching of photons introduces the noise in the measured flux. These are also known as shot noise. We applied Gaussian filter to  attenuate the high frequency flux thus smoothing some random shot noises in the data.
+
+
+
