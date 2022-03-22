@@ -17,5 +17,5 @@ The random bunching of photons introduces the noise in the measured flux. These 
 **Standardization**
 The flux of the exoplanet depends in how big it is. It also depends on the type of the exoplanet, distance etc. Thus it becomes very important to put the data on the same scale. We scaled the flux data between 0 to 1.
 
-![Denoising and Standardization](images/denoise.png)
+![Denoising and Standardization](images/denoise_flux.png)
 
