@@ -16,7 +16,7 @@ The random bunching of photons introduces the noise in the measured flux. These 
 **Standardization:**
 The flux of the exoplanet depends on how big it is. It also depends on the type of the exoplanet, distance, etc. Thus it becomes very important to put the data on the same scale. We scaled the flux data between 0 to 1.
 
-![Denoising and Standardization](images/denoise_flux.png)
+<img src="images/denoise_flux.png" width="600" height="300" /> 
 
 ### Feature Engineering
 
@@ -24,8 +24,8 @@ Although advanced deep learning methods could have been used to solve the proble
 **BLS Method**
 
 The algorithm applies the weighted least square and fits the box-shaped function to get parameters like Period(P), High, Low, fractional transit length.
-![Denoising and Standardization](images/BLS.png)
 
+<img src="images/BLS.png" width="600" height="250" /> 
 **Orbital Period:** The interval between consecutive planetary transits.
 **Transit Duration:** The duration of the observed transit.
 **Transit Depth:** The fraction of the stellar flux lost at the minimum of the planetary transit
@@ -45,7 +45,7 @@ We started with a basic Regression model to evaluate the baseline performance. T
 4. K-Nearest Neighbours
 5. Adaboost
 
-<img src="images/Ensemble.png" width="350" height="300" /> <img src="iimages/Perfomance.png" width="350" height="300" />
+<img src="images/Ensemble.png" width="350" height="300" /> <img src="images/Perfomance.png" width="350" height="300" />
 
 
 We then ensembled the prediction of these 4 models and used gradient boosting to compute the final prediction. The final F-score we got for this model is 0.862.
