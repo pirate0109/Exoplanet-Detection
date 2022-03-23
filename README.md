@@ -51,3 +51,8 @@ We started with a basic Regression model to evaluate the baseline performance. T
 We then ensembled the prediction of these 4 models and used gradient boosting to compute the final prediction. The final F-score we got for this model is 0.862.
 
 Further details and references can be found in the presentation available on Github.
+
+### Contributers
+1. Jyoti Prakash Bal
+2. Ashutosh Agarwal
+3. Shubham Thakur
