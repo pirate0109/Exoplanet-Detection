@@ -45,7 +45,7 @@ We started with a basic Regression model to evaluate the baseline performance. T
 4. K-Nearest Neighbours
 5. Adaboost
 
-<img src="images/Ensemble.png" width="600" height="200" />
+<img src="images/Ensemble.png" width="400" height="300" /> <img src="images/Ensemble.png" width="400" height="300" />
 
 ![Ensemble models](images/Ensemble.png "Ensemble Model") ![performance](images/Perfomance.png "Ensemble Model Performance")
 
